@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Course Registration Form</h1>
+    <form action="server.html" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Personal Details</legend>
+        <label for="name">First Name</label>
+        <input id="name "type="text" placeholder="ex:lahari"><br><br>
+        <label for="">Surname</label>
+        <input type="text" name="Name"><br><br>
+        <label for="">Mobile Number</label>
+        <input type="tel" name="Mobile"><br><br>
+        <label for="">Email</label>
+        <input type="email" required><br><br>
+        <label for="">Password</label>
+        <input type="password" minlength="5"><br><br>
+        <label for="">Confirm Password</label>
+        <input type="password"><br><br>
+        <label for="">Date of Birth</label>
+        <input type="date"><br><br>
+        <label for="">Age</label>
+        <input type="number" min="18" max="60"><br><br>
+        <label for="">Gender</label>
+        <input name="Gender" type="radio" value="Male">Male
+        <input name="Gender" type="radio" value="Female" checked>Female
+        <input name="Gender" type="radio" value="Others">Others<br><br>
+        
+        <label for="">Select Country</label>
+        <select name="" id="">
+            <option value="">India</option>
+            <option value="">USA</option>
+            <option value="" disabled>London</option>
+            <option value="">Russia</option>
+            <option value="">Nepal</option>
+        </select><br><br>
+        <label for="">Upload Picture</label>
+        <input type="file"><br><br>
+        <input type="reset">
+          <button type="reset">Clear Button</button>
+        </fieldset>
+        <fieldset>
+            <legend>Course Details</Details></details></legend>
+            <label for="">Select Course</label>
+            <select name="Course" id="">
+                <option value="">Java Full Stack</option>
+                <option value="">Python Full Stack</option>
+                <option value="">Data Analytics</option>
+                <option value="">Machine Learning</option>
+            </select><br><br>
+
+            <label for="">Delivery Mode</label>
+            <input type="checkbox" name="mode" value="Online">Online
+            <input type="checkbox"name="mode" value="Offline">Offline<br><br>
+            
+
+            <label for="">Comments</label><br>
+            <textarea name="" id="" rows="15" cols="40"></textarea>
+
+
+        </fieldset>
+        <input type="submit">
+
+        </form>
+</body>
+</html>
